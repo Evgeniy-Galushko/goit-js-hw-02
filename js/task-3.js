@@ -8,15 +8,15 @@ function checkForSpam(message) {
   if (text.includes("spam")) {
     const wert = true
     return wert
-    concole.log(wert)    
+        
   } else if (text.includes("sale")) {
     const wert = true
     return wert
-    concole.log(wert)   
+      
   } else {
     const wert = false
     return wert
-    concole.log(wert)  
+      
   }
 }
 

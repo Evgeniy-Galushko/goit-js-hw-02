@@ -7,31 +7,31 @@ switch (country) {
     const priceChina = 100;
     const messageChina = `Shipping to ${country} will cost ${priceChina} credits`
     return messageChina
-    console.log(messageChina)
+    
     break;
   case `Chile`:
     const priceChile = 250;
     const messageChile = `Shipping to ${country} will cost ${priceChile} credits`
     return messageChile
-    console.log(messageChile)
+    
     break;
   case `Australia`:
     const priceAustralia = 170;
     const messageAustralia = `Shipping to ${country} will cost ${priceAustralia} credits`
     return messageAustralia
-    console.log(messageAustralia)
+    
     break;
   case `Jamaica`:
     const priceJamaica = 120;
     const messageJamaica = `Shipping to ${country} will cost ${priceJamaica} credits`
     return messageJamaica
-    console.log(messageJamaica)
+    
     break;
   
   default:
     const message = "Sorry, there is no delivery to your country"
     return message
-    console.log(message)
+    
 }
 }
 
